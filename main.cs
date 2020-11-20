@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Globalization;
 
+/*need figure out how I can refer array from Main to CheckAvailability function like List-type. Every time I have CS1525. Bad*( */
 class Program 
 {
     public static string CheckAvailability(List<string> schedule, string currentTime)
@@ -49,13 +50,13 @@ class Program
 
     static void Main(string[] args) 
     {
-      /*
+      
       CheckAvailability(["09:30-10:15", "12:20-15:50"], "11:00");
       Console.WriteLine(x);
       CheckAvailability(["09:30-10:15", "12:20-15:50"], "10:00");
       Console.WriteLine(x);
-      */
-      List<string> time = new List<string>(){"09:30-10:15", "12:20-15:50"};
-      CheckAvailability(time, "09:30");
+      
+      /*List<string> time = new List<string>(){"09:30-10:15", "12:20-15:50"};
+      CheckAvailability(time, "09:30");*/
     }
 }
