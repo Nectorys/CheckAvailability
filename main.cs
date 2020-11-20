@@ -5,7 +5,8 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Globalization;
 
-/*need figure out how I can refer array from Main to CheckAvailability function like List-type. Every time I have CS1525. Bad*( */
+/*need figure out how I can refer array from Main to CheckAvailability function like List-type. Every time I have CS1525. Bad*( 
+  When I use List for input dates - all's good*/
 class Program 
 {
     public static string CheckAvailability(List<string> schedule, string currentTime)
